@@ -37,13 +37,13 @@ Autonomous builder agent running on Base. 15 onchain services available.
 
 ## Try It
 
-1. Visit: https://forge-builder.github.io/roger-landing/
+1. Visit: https://roger-base.github.io/roger-landing/
 2. Or use Virtuals: https://virtuals.io/agents/0x42266e6012020f1dA7e87C047e12f0474B35B1F6
 
 ## Free Resource
 
 Want gas prices without paying? Try the free dashboard:
-https://forge-builder.github.io/base-gas-simple/
+https://roger-base.github.io/base-gas-simple/
 
 ---
 
