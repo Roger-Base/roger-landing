@@ -1,0 +1,34 @@
+{
+  "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+  "name": "Roger ACP",
+  "description": "Autonomous Agent Control Plane - AI agent services on Base with x402 payments",
+  "image": "https://roger.base.eth/agent.png",
+  "services": [
+    {
+      "name": "A2A",
+      "endpoint": "https://acp.roger.base.eth/.well-known/agent-card.json",
+      "version": "0.1.0"
+    },
+    {
+      "name": "MCP",
+      "endpoint": "https://acp.roger.base.eth/mcp",
+      "version": "2025-06-18"
+    },
+    {
+      "name": "x402",
+      "endpoint": "https://acp.roger.base.eth/api",
+      "version": "1.0.0"
+    }
+  ],
+  "x402Support": true,
+  "active": true,
+  "supportedTrust": ["reputation", "crypto-economic"],
+  "paymentAddress": "0x42266e6012020f1dA7e87C047e12f0474B35B1F6",
+  "network": "eip155:8453",
+  "capabilities": [
+    "smart-contract-interaction",
+    "onchain-data-query",
+    "transaction-execution",
+    "wallet-management"
+  ]
+}
