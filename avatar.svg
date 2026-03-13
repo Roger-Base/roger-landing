@@ -1,27 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
-  <!-- Pixel art lobster - Roger Red #FF2D63 -->
-  <rect width="120" height="120" fill="#0a0a0f"/>
-  <!-- Body -->
-  <rect x="40" y="45" width="40" height="35" fill="#FF2D63"/>
-  <!-- Head -->
-  <rect x="45" y="30" width="30" height="20" fill="#FF2D63"/>
-  <!-- Eyes -->
-  <rect x="48" y="35" width="6" height="6" fill="#0a0a0f"/>
-  <rect x="66" y="35" width="6" height="6" fill="#0a0a0f"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF2D63"/>
+      <stop offset="100%" style="stop-color:#cc1144"/>
+    </linearGradient>
+    <linearGradient id="clawGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF4D7A"/>
+      <stop offset="100%" style="stop-color:#FF2D63"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#0a0a0f"/>
+  <circle cx="100" cy="100" r="85" fill="url(#bodyGrad)" opacity="0.15"/>
+  
   <!-- Antennae -->
-  <rect x="42" y="15" width="3" height="20" fill="#FF2D63"/>
-  <rect x="75" y="15" width="3" height="20" fill="#FF2D63"/>
+  <path d="M65 40 Q55 20 45 25" stroke="#FF2D63" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M135 40 Q145 20 155 25" stroke="#FF2D63" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <circle cx="45" cy="25" r="4" fill="#FF2D63"/>
+  <circle cx="155" cy="25" r="4" fill="#FF2D63"/>
+  
+  <!-- Left claw arm -->
+  <path d="M50 80 Q30 70 25 55" stroke="url(#clawGrad)" stroke-width="12" fill="none" stroke-linecap="round"/>
   <!-- Left claw -->
-  <rect x="20" y="40" width="25" height="8" fill="#FF2D63"/>
-  <rect x="15" y="32" width="15" height="15" fill="#FF2D63"/>
+  <ellipse cx="22" cy="50" rx="18" ry="14" fill="url(#clawGrad)"/>
+  <ellipse cx="12" cy="42" rx="10" ry="8" fill="#FF2D63"/>
+  <ellipse cx="32" cy="42" rx="10" ry="8" fill="#FF2D63"/>
+  
+  <!-- Right claw arm -->
+  <path d="M150 80 Q170 70 175 55" stroke="url(#clawGrad)" stroke-width="12" fill="none" stroke-linecap="round"/>
   <!-- Right claw -->
-  <rect x="75" y="40" width="25" height="8" fill="#FF2D63"/>
-  <rect x="90" y="32" width="15" height="15" fill="#FF2D63"/>
+  <ellipse cx="178" cy="50" rx="18" ry="14" fill="url(#clawGrad)"/>
+  <ellipse cx="168" cy="42" rx="10" ry="8" fill="#FF2D63"/>
+  <ellipse cx="188" cy="42" rx="10" ry="8" fill="#FF2D63"/>
+  
+  <!-- Body/Tail segments -->
+  <ellipse cx="100" cy="130" rx="35" ry="25" fill="url(#bodyGrad)"/>
+  <ellipse cx="100" cy="105" rx="38" ry="30" fill="url(#bodyGrad)"/>
+  
+  <!-- Head -->
+  <ellipse cx="100" cy="75" rx="30" ry="25" fill="url(#bodyGrad)"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="88" cy="68" rx="8" ry="10" fill="#0a0a0f"/>
+  <ellipse cx="112" cy="68" rx="8" ry="10" fill="#0a0a0f"/>
+  <circle cx="90" cy="66" r="4" fill="#00ff88"/>
+  <circle cx="114" cy="66" r="4" fill="#00ff88"/>
+  
+  <!-- Eye shine -->
+  <circle cx="88" cy="64" r="2" fill="#fff"/>
+  <circle cx="112" cy="64" r="2" fill="#fff"/>
+  
   <!-- Tail -->
-  <rect x="50" y="75" width="20" height="8" fill="#FF2D63"/>
-  <rect x="45" y="80" width="30" height="8" fill="#FF2D63"/>
-  <rect x="40" y="85" width="40" height="8" fill="#FF2D63"/>
-  <!-- Claws detail -->
-  <rect x="18" y="34" width="4" height="4" fill="#cc1144"/>
-  <rect x="98" y="34" width="4" height="4" fill="#cc1144"/>
+  <ellipse cx="100" cy="155" rx="25" ry="15" fill="url(#bodyGrad)"/>
+  <path d="M80 165 Q100 180 120 165" stroke="#FF2D63" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Legs -->
+  <path d="M70 140 L55 155" stroke="#FF2D63" stroke-width="3" stroke-linecap="round"/>
+  <path d="M85 150 L75 168" stroke="#FF2D63" stroke-width="3" stroke-linecap="round"/>
+  <path d="M115 150 L125 168" stroke="#FF2D63" stroke-width="3" stroke-linecap="round"/>
+  <path d="M130 140 L145 155" stroke="#FF2D63" stroke-width="3" stroke-linecap="round"/>
 </svg>
