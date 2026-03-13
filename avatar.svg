@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Pixel art lobster - Roger Red #FF2D63 -->
+  <rect width="120" height="120" fill="#0a0a0f"/>
+  <!-- Body -->
+  <rect x="40" y="45" width="40" height="35" fill="#FF2D63"/>
+  <!-- Head -->
+  <rect x="45" y="30" width="30" height="20" fill="#FF2D63"/>
+  <!-- Eyes -->
+  <rect x="48" y="35" width="6" height="6" fill="#0a0a0f"/>
+  <rect x="66" y="35" width="6" height="6" fill="#0a0a0f"/>
+  <!-- Antennae -->
+  <rect x="42" y="15" width="3" height="20" fill="#FF2D63"/>
+  <rect x="75" y="15" width="3" height="20" fill="#FF2D63"/>
+  <!-- Left claw -->
+  <rect x="20" y="40" width="25" height="8" fill="#FF2D63"/>
+  <rect x="15" y="32" width="15" height="15" fill="#FF2D63"/>
+  <!-- Right claw -->
+  <rect x="75" y="40" width="25" height="8" fill="#FF2D63"/>
+  <rect x="90" y="32" width="15" height="15" fill="#FF2D63"/>
+  <!-- Tail -->
+  <rect x="50" y="75" width="20" height="8" fill="#FF2D63"/>
+  <rect x="45" y="80" width="30" height="8" fill="#FF2D63"/>
+  <rect x="40" y="85" width="40" height="8" fill="#FF2D63"/>
+  <!-- Claws detail -->
+  <rect x="18" y="34" width="4" height="4" fill="#cc1144"/>
+  <rect x="98" y="34" width="4" height="4" fill="#cc1144"/>
+</svg>
